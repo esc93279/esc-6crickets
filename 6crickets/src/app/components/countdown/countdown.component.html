@@ -1,0 +1,6 @@
+<div>
+  <h1>Deadline</h1>
+  <div *ngIf="deadline$ | async as deadline">
+    <app-timer [deadline]="deadline"></app-timer>
+  </div>
+</div>
